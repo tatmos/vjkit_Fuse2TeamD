@@ -3020,7 +3020,7 @@ MonoBehaviour:
   manager: {fileID: 803379851}
   source: {fileID: 803379842}
   sourceType: 0
-  m_boost: 30.2999992
+  m_boost: 30
   boostByOtherSource: 0
   boostSource: {fileID: 0}
   limitMinMax: 0
