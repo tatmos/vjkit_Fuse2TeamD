@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MidiSequencer_D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8c14e00e3c14099b825b5c1ff2f87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  midiFiles:
+  - {fileID: 4900000, guid: 159b10070076643ef8d74a4e3a7d5066, type: 3}
+  - {fileID: 4900000, guid: 5584f36387f2845a0984002c133c197d, type: 3}
+  - {fileID: 4900000, guid: f19785248a911447c8e31badcc0e69f7, type: 3}
+  audioFiles:
+  - {fileID: 8300000, guid: 920c06b76f0734719b8772b3f1e7d54b, type: 3}
+  - {fileID: 8300000, guid: 95bd4bc0d29d545dc899f1c4a5373e05, type: 3}
+  - {fileID: 8300000, guid: adb03311738bc49028e8b585d8b2b315, type: 3}
+  bpm: 107
+  startTime: 0
+  receiveStartEvent: 0
+  volume: 1
+  playMasterMusic: 0
+  masterMusic: {fileID: 8300000, guid: 7613cee266c754d3baac280a911a8755, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
